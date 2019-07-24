@@ -1,0 +1,51 @@
+.burger-container {
+  position: fixed;
+  top: 24vh;
+  right: 2vw;
+  z-index: 400;
+}
+
+.burger-bar {
+  width: 35px;
+  height: 5px;
+  background-color: #67727e;
+  margin: 6px 0;
+}
+
+.burger-container:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.burger-hide {
+  display: none;
+}
+
+.ex-bar-right {
+  width: 35px;
+  height: 5px;
+  background-color: #ddd;
+  margin: 6px 0;
+  transform: rotate(45deg);
+}
+
+.ex-container {
+  position: fixed;
+  top: 24vh;
+  right: 2vw;
+  z-index: 100;
+}
+
+.ex-container:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.ex-bar-left {
+  width: 35px;
+  height: 5px;
+  background-color: #ddd;
+  margin: 6px 0;
+  transform: rotate(-45deg);
+  margin-top: -10px;
+}

@@ -1,0 +1,35 @@
+.body-full-pic-container {
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+  top: 100px;
+}
+
+.body-full-pic {
+  width: 100%;
+  opacity: 0.93;
+}
+
+.body-content {
+  z-index: 3;
+  position: relative;
+  background: #f9fafb;  /* fallback for old browsers */
+
+}
+
+
+.feature-pic-container{
+  width:100%;
+}
+
+.feature-pic{
+  width:100%;
+}
+
+.footerHome{
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}

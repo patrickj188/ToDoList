@@ -1,0 +1,13 @@
+.body {
+  background: #f1f1f1;
+  min-height: 100vw;
+}
+
+.userpage-body {
+  width: 40vw;
+  /* height:100vh; */
+}
+
+/* .todo {
+  height: 100vh;
+} */
